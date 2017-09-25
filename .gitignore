@@ -1,0 +1,48 @@
+# Hidden files
+.*
+!.git*
+!.editorconfig
+
+# Binaries
+*.a
+*.ko
+*.o
+*.pdf
+*.so
+*.uo
+
+# Dependency files
+*.d
+
+# Temporary files
+*~
+
+# Lock files
+*.lock
+
+# Build logs
+*.log
+
+# autotools
+autom4te.cache/
+Makefile
+Makefile.in
+aclocal.m4
+compile
+config.guess
+config.log
+config.status
+config.sub
+configure
+depcomp
+install-sh
+ltmain.sh
+missing
+test-driver
+
+# click-buildtool generated files
+*-uelem.conf
+*-uelem.mk
+*-umain.cc
+
+uelements.*
